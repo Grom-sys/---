@@ -1,9 +1,9 @@
 from pygame import *
 
 scr = display.set_mode((700,500))
-background = transform.scale(image.load(""),(700,500))
-hero = transform.scale(image.load(""),(100,100))
-hero2 = transform.scale(image.load(""),(100,100))
+background = transform.scale(image.load("фон.jpg"),(700,500))
+hero = transform.scale(image.load("p1.png"),(100,100))
+hero2 = transform.scale(image.load("p2.png"),(100,100))
 game = True
 clock = time.Clock()
 FPS = 60
